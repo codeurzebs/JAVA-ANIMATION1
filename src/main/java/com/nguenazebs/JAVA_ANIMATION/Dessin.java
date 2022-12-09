@@ -49,6 +49,7 @@ public class Dessin extends Canvas{
         while (lesObjets.hasNext()) {
             Chenille objCour = (Chenille)(lesObjets.next());
             objCour.dessiner(g);
+		System.out.print("entrer dans la boucle!! reussi");
         }
     }
     
